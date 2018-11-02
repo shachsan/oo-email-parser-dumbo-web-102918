@@ -9,6 +9,6 @@ class EmailParser
   end
 
   def parse
-    @emails.split(/[, ]/).reject {|ele|}
+    @emails.split(/[, ]/).reject {|ele|ele.}
   end
 end
